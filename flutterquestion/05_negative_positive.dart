@@ -1,5 +1,8 @@
+import 'dart:io';
+
 void main() {
-  int num = 0;
+  print("Enter a number you want to check either positive or negative.");
+  int num = int.parse(stdin.readLineSync());
 
   if (num <= 0) {
     if (num == 0) {
