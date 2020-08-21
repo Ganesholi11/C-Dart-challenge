@@ -8,6 +8,8 @@ void main() {
   int constunants = 0;
   print(str1.length);
   for (int i = 0; i < str1.length; i++) {
+    print(vowels);
+
     if (i == 'a' ||
         i == 'e' ||
         i == 'i' ||
